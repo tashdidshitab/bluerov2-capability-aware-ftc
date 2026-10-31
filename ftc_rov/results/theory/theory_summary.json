@@ -1,0 +1,149 @@
+{
+ "T2_tolerance": {
+  "sigma_max": 1.9999999999999998,
+  "smallest_nonzero_block_sv": 0.16182439568027035,
+  "largest_zero_block_sv": 1.1102230246251563e-16,
+  "gap_ratio": 1457584576170242.8,
+  "class_changes_vs_tol": {
+   "1e-12": 0,
+   "1e-11": 0,
+   "1e-10": 0,
+   "1e-09": 0,
+   "1e-08": 0,
+   "1e-07": 0,
+   "1e-06": 0,
+   "1e-05": 0,
+   "1e-04": 0,
+   "1e-03": 0,
+   "1e-02": 0
+  },
+  "note": "classification identical for every relative tolerance between 1e-12 and 1e-2"
+ },
+ "T6_spin": {
+  "Tm=10.0,chi=0": {
+   "net_speed_mps": 0.01201205694933413,
+   "net_dir_deg": 23.26005107157312,
+   "spin_rate_dps": -26.73397800256355
+  },
+  "Tm=25.0,chi=0": {
+   "net_speed_mps": 0.01843978717952483,
+   "net_dir_deg": 8.638442104675802,
+   "spin_rate_dps": -42.3917361755991
+  },
+  "Tm=51.5,chi=0": {
+   "net_speed_mps": 0.026305756121727596,
+   "net_dir_deg": -3.305024625740315,
+   "spin_rate_dps": -60.7377570343857
+  },
+  "Tm=25.0,chi=90": {
+   "net_speed_mps": 0.01850484427908569,
+   "net_dir_deg": 98.46927175622774,
+   "spin_rate_dps": -42.40661051873039
+  },
+  "Tm=25.0,chi=180": {
+   "net_speed_mps": 0.018364279388354842,
+   "net_dir_deg": -171.8855434997313,
+   "spin_rate_dps": -42.34408834131599
+  },
+  "Tm=25.0,chi=-90": {
+   "net_speed_mps": 0.01831060452547285,
+   "net_dir_deg": -81.46054125345056,
+   "spin_rate_dps": -42.36395106971227
+  }
+ },
+ "T3_perturbation": {
+  "n_draws": 2000,
+  "perturbation": "azimuth +-5 deg, tilt +-3 deg, position +-10 mm",
+  "n_deficient_blocks": 320,
+  "sv_ratio_lost_over_max_H": {
+   "median": 0.0,
+   "p95": 0.0,
+   "max": 0.0
+  },
+  "sv_ratio_lost_over_max_V": {
+   "median": 0.0,
+   "p95": 0.0,
+   "max": 0.0
+  },
+  "capacity_lost_dir_H_N_or_Nm": {
+   "median": 0.7244104545218539,
+   "p95": 5.530558962683758,
+   "max": 8.491211224838738
+  },
+  "capacity_lost_dir_V_N_or_Nm": {
+   "median": 0.3766878895446326,
+   "p95": 0.7683290802342129,
+   "max": 1.0911204645924675
+  },
+  "class_unchanged_fraction_at_5pct_practical_tol": 1.0
+ },
+ "T1_exact": {
+  "all_agree": true,
+  "n": 255,
+  "counts_exact": {
+   "COUPLED_ATTITUDE": 50,
+   "FULL": 25,
+   "HEADING_STEERED": 90,
+   "INFEASIBLE_DEPTH": 15,
+   "INFEASIBLE_HORIZONTAL": 75
+  },
+  "counts_by_nfailed": {
+   "0": {
+    "COUPLED_ATTITUDE": 0,
+    "FULL": 1,
+    "HEADING_STEERED": 0,
+    "INFEASIBLE_DEPTH": 0,
+    "INFEASIBLE_HORIZONTAL": 0
+   },
+   "1": {
+    "COUPLED_ATTITUDE": 0,
+    "FULL": 8,
+    "HEADING_STEERED": 0,
+    "INFEASIBLE_DEPTH": 0,
+    "INFEASIBLE_HORIZONTAL": 0
+   },
+   "2": {
+    "COUPLED_ATTITUDE": 6,
+    "FULL": 16,
+    "HEADING_STEERED": 6,
+    "INFEASIBLE_DEPTH": 0,
+    "INFEASIBLE_HORIZONTAL": 0
+   },
+   "3": {
+    "COUPLED_ATTITUDE": 28,
+    "FULL": 0,
+    "HEADING_STEERED": 24,
+    "INFEASIBLE_DEPTH": 0,
+    "INFEASIBLE_HORIZONTAL": 4
+   },
+   "4": {
+    "COUPLED_ATTITUDE": 16,
+    "FULL": 0,
+    "HEADING_STEERED": 36,
+    "INFEASIBLE_DEPTH": 1,
+    "INFEASIBLE_HORIZONTAL": 17
+   },
+   "5": {
+    "COUPLED_ATTITUDE": 0,
+    "FULL": 0,
+    "HEADING_STEERED": 24,
+    "INFEASIBLE_DEPTH": 4,
+    "INFEASIBLE_HORIZONTAL": 28
+   },
+   "6": {
+    "COUPLED_ATTITUDE": 0,
+    "FULL": 0,
+    "HEADING_STEERED": 0,
+    "INFEASIBLE_DEPTH": 6,
+    "INFEASIBLE_HORIZONTAL": 22
+   },
+   "7": {
+    "COUPLED_ATTITUDE": 0,
+    "FULL": 0,
+    "HEADING_STEERED": 0,
+    "INFEASIBLE_DEPTH": 4,
+    "INFEASIBLE_HORIZONTAL": 4
+   }
+  }
+ }
+}

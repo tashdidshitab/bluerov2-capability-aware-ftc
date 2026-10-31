@@ -1,0 +1,3 @@
+__pycache__/
+*.pyc
+ftc_rov/bench/controller_step

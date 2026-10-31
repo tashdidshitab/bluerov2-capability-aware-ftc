@@ -1,0 +1,25 @@
+manoeuvre,description,duration_s,path_length_m,max_speed_mps,max_accel_mps2,depth_min_m,depth_max_m,heading_range_deg,current_mps,reactive
+Dive-In,Descend 1 m -> 20 m,90.0,19.0,0.51,0.022,1.0,20.0,0.0,0.05,False
+Surface/Ascend,Ascend 20 m -> 1 m,90.0,19.0,0.51,0.022,1.0,20.0,0.0,0.05,False
+Lawnmower,"4 lanes x 16 m, 4 m spacing, z=10 m",244.7,68.3,0.3,0.156,10.0,10.0,180.0,0.05,False
+Zigzag,"8 diagonal legs, +-2.5 m, z=10 m",123.4,31.9,0.3,0.241,10.0,10.0,115.0,0.05,False
+Spiral,"Expanding Archimedean spiral r 1->8 m, 3 turns",301.0,85.2,0.3,0.075,10.0,10.0,1095.0,0.05,False
+Helical,"Helix R=4 m, 2.5 m/turn, z 5 -> 12.5 m",269.6,75.8,0.3,0.052,5.0,12.5,1079.0,0.05,False
+Circular Orbit,"Orbit R=5 m around target, nose on target",147.9,39.3,0.3,0.051,10.0,10.0,450.0,0.05,False
+Figure-Eight,"Lemniscate of Gerono, 14 m x 7 m",159.3,42.7,0.3,0.062,10.0,10.0,270.0,0.05,False
+Square,"10 m square, rounded corners",131.7,34.4,0.3,0.287,10.0,10.0,270.0,0.05,False
+Waypoint Nav,6 3-D waypoints,154.3,41.2,0.3,0.159,5.0,11.3,270.0,0.05,False
+Straight Line,40 m line at 8 m depth,150.3,40.0,0.3,0.05,8.0,8.0,0.0,0.05,False
+Depth Staircase,5 depth steps of 3 m (5->20 m) at 0.15 m/s,145.0,29.7,0.4,0.593,5.0,20.0,0.0,0.05,False
+Sawtooth/Yo-Yo,3 yo-yo cycles 6-14 m over 36 m,185.5,50.6,0.3,0.193,6.0,13.4,0.0,0.05,False
+S-Curve,"Sinusoid A=3 m, lambda=15 m",215.1,59.4,0.3,0.05,8.0,8.0,103.0,0.05,False
+Station Keeping,Hover at 10 m in 0.15 m/s current + waves,120.0,0.0,0.0,0.0,10.0,10.0,0.0,0.15,False
+Transect,"30 m survey line, fixed heading, 0.15 m/s cross-current",117.0,30.0,0.3,0.05,12.0,12.0,0.0,0.15,False
+Wall Following,Keep 2 m stand-off from curved wall (sonar),139.8,36.8,0.3,0.05,8.0,8.0,35.0,0.05,True
+Terrain Following,Hold 3 m altitude over undulating seabed (altimeter),153.2,40.9,0.3,0.053,11.1,16.3,0.0,0.05,True
+Docking Approach,"Transit, align with dock axis, 0.1 m/s final approach",130.0,13.9,0.34,0.019,6.0,9.0,60.0,0.05,False
+Obstacle Avoidance,"3 pillars detected at 8 m by sonar, local detours (1.5 m clearance)",179.0,48.6,0.3,0.069,8.0,8.0,94.0,0.05,True
+SAR Sweep,"Expanding-square search, 3 m track spacing",185.0,50.4,0.3,0.361,10.0,10.0,630.0,0.05,False
+Random Walk,9 random-heading 5 m segments (seed 7),158.2,42.4,0.3,0.143,10.0,12.6,150.0,0.05,False
+Adaptive Exploration,"Gradient-seeking plume search, replans every 10 s",150.0,0.0,0.0,0.0,8.0,8.0,0.0,0.05,True
+Emergency Ascent,"Safety ascent 25 m -> 1 m at <=0.5 m/s, level attitude",61.0,24.0,0.5,0.1,1.0,25.0,0.0,0.05,False
